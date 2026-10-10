@@ -39,7 +39,7 @@ I'm an IT infrastructure professional from Argentina, with an interest in system
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=aws,terraform,linux,redhat,docker,git,github,vscode&perline=8" alt="AWS, Terraform, Linux, Red Hat Enterprise Linux, Docker, Git, GitHub, VS Code" />
+<img src="https://skillicons.dev/icons?i=aws,terraform,linux,redhat,grafana,docker,git,github,vscode&perline=9" alt="AWS, Terraform, Linux, Red Hat Enterprise Linux, Grafana, Docker, Git, GitHub, VS Code" />
 
 </div>
 
