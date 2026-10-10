@@ -70,10 +70,6 @@ I'm an IT infrastructure professional from Argentina, with an interest in system
       <p>Hands-on lab plan for Linux troubleshooting, logs, monitoring metrics, alerting, and incident documentation.</p>
       <a href="https://github.com/Lpistolessi/Lpistolessi/tree/main/linux-monitoring-lab">View lab →</a>
     </td>
-    <td width="50%">
-      <h3>🧰 More projects coming</h3>
-      <p>Continuously building and documenting infrastructure labs as I learn.</p>
-    </td>
   </tr>
 </table>
 
