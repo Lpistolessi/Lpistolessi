@@ -3,12 +3,6 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&pause=1000&color=38BDF8&center=true&vCenter=true&width=800&lines=Hi%2C+I'm+Lucas+%F0%9F%91%8B;IT+Infrastructure+%7C+Cloud+%7C+AWS;Learning+Terraform+and+building+cloud+projects" alt="Animated typing introduction" />
 
-<p>
-  <img src="https://img.shields.io/badge/AWS-Cloud%20Practitioner-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" alt="AWS Cloud Practitioner" />
-  <img src="https://img.shields.io/badge/AWS-Solutions%20Architect%20Associate-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white" alt="AWS Solutions Architect Associate" />
-  <img src="https://img.shields.io/badge/Terraform-Learning-7B42BC?style=for-the-badge&logo=terraform&logoColor=white" alt="Terraform learning" />
-</p>
-
 <p><b>IT Infrastructure • Cloud Computing • Systems Administration</b></p>
 
 </div>
@@ -29,14 +23,15 @@ I'm an IT infrastructure professional from Argentina, with an interest in system
 
 <div align="center">
 
-<a href="https://www.credly.com/badges/bd7913f7-7c43-4546-856b-94df1b942567/linked_in_profile">
-  <img src="https://img.shields.io/badge/AWS-Cloud%20Practitioner-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" alt="Verify AWS Certified Cloud Practitioner on Credly" />
+<a href="https://www.credly.com/badges/bd7913f7-7c43-4546-856b-94df1b942567/linked_in_profile" title="Verify AWS Certified Cloud Practitioner">
+  <img src="https://img.shields.io/badge/%E2%98%81-Cloud%20Practitioner-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" alt="AWS Certified Cloud Practitioner — click to verify" />
 </a>
-<a href="https://www.credly.com/badges/459deb1c-c14b-4745-a298-2c85c1ab9318/linked_in_profile">
-  <img src="https://img.shields.io/badge/AWS-Solutions%20Architect%20Associate-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white" alt="Verify AWS Certified Solutions Architect Associate on Credly" />
+&nbsp;&nbsp;
+<a href="https://www.credly.com/badges/459deb1c-c14b-4745-a298-2c85c1ab9318/linked_in_profile" title="Verify AWS Certified Solutions Architect – Associate">
+  <img src="https://img.shields.io/badge/%E2%98%81-Solutions%20Architect%20Associate-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white" alt="AWS Certified Solutions Architect Associate — click to verify" />
 </a>
 
-<p>Click a badge to view its Credly credential.</p>
+<p><sub>Click either certification icon to open its Credly verification page.</sub></p>
 
 </div>
 
