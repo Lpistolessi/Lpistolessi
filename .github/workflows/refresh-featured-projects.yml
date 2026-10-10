@@ -45,13 +45,21 @@ jobs:
               and not repo.get("archived", False)
           ]
 
+          descriptions = {
+              "terraform-aws-secure-s3": "Terraform project focused on S3 security: encryption, versioning, blocking public access, and requiring HTTPS.",
+              "linux-monitoring-lab": "Hands-on Linux lab covering troubleshooting, logs, monitoring, alerting, and incident documentation.",
+              "aws-architecture-notes": "Study notes on AWS services, security, reliability, cost optimization, and architecture review questions.",
+          }
+
           if projects:
-              lines = [
-                  f"- [{repo['name']}]({repo['html_url']})"
-                  + (f" — {repo['description'].strip()}" if repo.get("description") else "")
-                  for repo in projects
-              ]
-              section = "\n".join(lines)
+              lines = []
+              for repo in projects:
+                  description = (repo.get("description") or descriptions.get(repo["name"], "")).strip()
+                  lines.append(f"### [{repo['name']}]({repo['html_url']})")
+                  if description:
+                      lines.append(description)
+                  lines.append("")
+              section = "\\n".join(lines).rstrip()
           else:
               section = "_No public projects yet._"
 
