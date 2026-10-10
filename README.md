@@ -51,27 +51,9 @@ I'm an IT infrastructure professional from Argentina, with an interest in system
 
 ## 🚀 Featured Projects
 
-<table>
-  <tr>
-    <td width="50%">
-      <h3>☁️ Secure S3 with Terraform</h3>
-      <p>Terraform learning project featuring S3 encryption, versioning, public access blocking, and a policy requiring HTTPS.</p>
-      <a href="https://github.com/Lpistolessi/Lpistolessi/tree/main/terraform-aws-secure-s3">View project →</a>
-    </td>
-    <td width="50%">
-      <h3>📐 AWS Architecture Notes</h3>
-      <p>Study notes on AWS services, security, reliability, cost optimization, and architecture review questions.</p>
-      <a href="https://github.com/Lpistolessi/Lpistolessi/tree/main/aws-architecture-notes">View notes →</a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <h3>🐧 Linux & Monitoring Lab</h3>
-      <p>Hands-on lab plan for Linux troubleshooting, logs, monitoring metrics, alerting, and incident documentation.</p>
-      <a href="https://github.com/Lpistolessi/Lpistolessi/tree/main/linux-monitoring-lab">View lab →</a>
-    </td>
-  </tr>
-</table>
+<!-- PUBLIC_PROJECTS_START -->
+_This section is automatically updated with my public, non-fork repositories._
+<!-- PUBLIC_PROJECTS_END -->
 
 ## 📊 GitHub Activity
 
