@@ -2,6 +2,8 @@
 
 A small learning project demonstrating baseline S3 security controls using Terraform.
 
+> **Project status:** This is a learning project and has not yet been deployed or validated against a live AWS account. Review the Terraform plan and test it in a sandbox account before using it for real resources.
+
 ## What it creates
 - An S3 bucket with a configurable name
 - Server-side encryption using S3-managed keys (SSE-S3)
