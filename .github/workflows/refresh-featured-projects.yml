@@ -1,0 +1,82 @@
+name: Refresh featured public projects
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 */6 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update-featured-projects:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out profile repository
+        uses: actions/checkout@v4
+
+      - name: Update public projects section
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          import urllib.request
+          from pathlib import Path
+
+          username = "Lpistolessi"
+          api_url = f"https://api.github.com/users/{username}/repos?type=public&sort=updated&per_page=100"
+          request = urllib.request.Request(
+              api_url,
+              headers={
+                  "Accept": "application/vnd.github+json",
+                  "Authorization": f"Bearer {os.environ['GITHUB_TOKEN']}",
+                  "X-GitHub-Api-Version": "2022-11-28",
+              },
+          )
+          with urllib.request.urlopen(request) as response:
+              repositories = json.load(response)
+
+          projects = [
+              repo for repo in repositories
+              if repo["name"].lower() != username.lower()
+              and not repo.get("fork", False)
+              and not repo.get("archived", False)
+          ]
+
+          if projects:
+              lines = [
+                  f"- [{repo['name']}]({repo['html_url']})"
+                  + (f" — {repo['description'].strip()}" if repo.get("description") else "")
+                  for repo in projects
+              ]
+              section = "\n".join(lines)
+          else:
+              section = "_No public projects yet._"
+
+          readme_path = Path("README.md")
+          content = readme_path.read_text(encoding="utf-8")
+          start_marker = "<!-- PUBLIC_PROJECTS_START -->"
+          end_marker = "<!-- PUBLIC_PROJECTS_END -->"
+          if start_marker not in content or end_marker not in content:
+              raise SystemExit("Featured Projects markers were not found in README.md")
+
+          before, remainder = content.split(start_marker, 1)
+          _, after = remainder.split(end_marker, 1)
+          updated = before + start_marker + "\n" + section + "\n" + end_marker + after
+          if updated != content:
+              readme_path.write_text(updated, encoding="utf-8")
+          PY
+
+      - name: Commit changes if needed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          if git diff --cached --quiet; then
+            echo "Featured projects are already up to date."
+          else
+            git commit -m "Update featured public projects"
+            git push
+          fi
