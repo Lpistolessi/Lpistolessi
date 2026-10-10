@@ -23,15 +23,15 @@ I'm an IT infrastructure professional from Argentina, with an interest in system
 
 <div align="center">
 
-<a href="https://www.credly.com/badges/bd7913f7-7c43-4546-856b-94df1b942567/linked_in_profile" title="Verify AWS Certified Cloud Practitioner">
-  <img src="https://img.shields.io/badge/%E2%98%81-Cloud%20Practitioner-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" alt="AWS Certified Cloud Practitioner — click to verify" />
+<a href="https://www.credly.com/badges/bd7913f7-7c43-4546-856b-94df1b942567/linked_in_profile">
+  <img src="https://d1.awsstatic.com/onedam/marketing-channels/website/aws/en_US/certification/approved/images/certification-badges/clf-badge-resized.43ecec2d2cb0aca3863fc78e90f20898e889e7d5.png" width="150" alt="AWS Certified Cloud Practitioner badge — click to verify on Credly" />
 </a>
-&nbsp;&nbsp;
-<a href="https://www.credly.com/badges/459deb1c-c14b-4745-a298-2c85c1ab9318/linked_in_profile" title="Verify AWS Certified Solutions Architect – Associate">
-  <img src="https://img.shields.io/badge/%E2%98%81-Solutions%20Architect%20Associate-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white" alt="AWS Certified Solutions Architect Associate — click to verify" />
+&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://www.credly.com/badges/459deb1c-c14b-4745-a298-2c85c1ab9318/linked_in_profile">
+  <img src="https://d1.awsstatic.com/onedam/marketing-channels/website/aws/zh_TW/events/approved/images/summits/taipei/training-and-certification/lan.f5470fcc31bba569d878b2671a3c3eb65cbc5a1c.png" width="150" alt="AWS Certified Solutions Architect Associate badge — click to verify on Credly" />
 </a>
 
-<p><sub>Click either certification icon to open its Credly verification page.</sub></p>
+<p><sub>Click each official certification badge to verify it on Credly.</sub></p>
 
 </div>
 
