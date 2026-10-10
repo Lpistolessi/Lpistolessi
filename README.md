@@ -24,7 +24,7 @@ I'm an IT infrastructure professional from Argentina, with an interest in system
 <div align="center">
 
 <a href="https://www.credly.com/badges/bd7913f7-7c43-4546-856b-94df1b942567/linked_in_profile">
-  <img src="https://d1.awsstatic.com/onedam/marketing-channels/website/aws/en_US/certification/approved/images/certification-badges/clf-badge-resized.43ecec2d2cb0aca3863fc78e90f20898e889e7d5.png" width="150" alt="AWS Certified Cloud Practitioner badge — click to verify on Credly" />
+  <img src="https://raw.githubusercontent.com/turboBasic/aws-certification-badges/main/assets/vector%20rendered/aws-certified-cloud-practitioner.svg" width="150" alt="AWS Certified Cloud Practitioner badge — click to verify on Credly" />
 </a>
 &nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://www.credly.com/badges/459deb1c-c14b-4745-a298-2c85c1ab9318/linked_in_profile">
