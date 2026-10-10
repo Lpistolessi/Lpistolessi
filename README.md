@@ -25,6 +25,21 @@ I'm an IT infrastructure professional from Argentina, with an interest in system
 - 📚 Improving my technical English step by step
 - 🎯 Focused on practical labs, clear documentation, and continuous learning
 
+## 🏆 AWS Certifications
+
+<div align="center">
+
+<a href="https://www.credly.com/badges/bd7913f7-7c43-4546-856b-94df1b942567/linked_in_profile">
+  <img src="https://img.shields.io/badge/AWS-Cloud%20Practitioner-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" alt="Verify AWS Certified Cloud Practitioner on Credly" />
+</a>
+<a href="https://www.credly.com/badges/459deb1c-c14b-4745-a298-2c85c1ab9318/linked_in_profile">
+  <img src="https://img.shields.io/badge/AWS-Solutions%20Architect%20Associate-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white" alt="Verify AWS Certified Solutions Architect Associate on Credly" />
+</a>
+
+<p>Click a badge to view its Credly credential.</p>
+
+</div>
+
 ## 🛠️ Technologies
 
 <div align="center">
