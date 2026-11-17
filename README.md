@@ -52,7 +52,7 @@ I'm an IT infrastructure professional from Argentina, with an interest in system
 ## 🚀 Featured Projects
 
 <!-- PUBLIC_PROJECTS_START -->
-### [linux-monitoring-lab](https://github.com/Lpistolessi/linux-monitoring-lab)\nHands-on Linux lab covering troubleshooting, logs, monitoring, alerting, and incident documentation.\n\n### [terraform-aws-secure-s3](https://github.com/Lpistolessi/terraform-aws-secure-s3)\nTerraform project focused on S3 security: encryption, versioning, blocking public access, and requiring HTTPS.\n
+### [terraform-practica](https://github.com/Lpistolessi/terraform-practica)\nPracticas de mi repositorio de Git Hub\n\n### [linux-monitoring-lab](https://github.com/Lpistolessi/linux-monitoring-lab)\nHands-on Linux lab covering troubleshooting, logs, monitoring, alerting, and incident documentation.\n\n### [terraform-aws-secure-s3](https://github.com/Lpistolessi/terraform-aws-secure-s3)\nTerraform project focused on S3 security: encryption, versioning, blocking public access, and requiring HTTPS.\n
 <!-- PUBLIC_PROJECTS_END -->
 
 ## 📊 GitHub Activity
